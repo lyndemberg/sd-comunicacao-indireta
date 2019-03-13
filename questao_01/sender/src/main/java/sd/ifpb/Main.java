@@ -1,14 +1,14 @@
 package sd.ifpb;
 
+import sd.ifpb.repositories.MessageRepository;
+import sd.ifpb.repositories.MessageResultRepository;
+import sd.ifpb.repositories.SendedMessageRepository;
+
 import java.rmi.AccessException;
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-
-import ifpb.repositories.MessageRepository;
-import ifpb.repositories.MessageResultRepository;
-import ifpb.repositories.SendedMessageRepository;
 
 public class Main {
 
