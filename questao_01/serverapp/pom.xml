@@ -15,6 +15,9 @@
   <properties>
     <skip.assembly>false</skip.assembly>
   </properties>
+  <build>
+    <finalName>serverapp</finalName>
+  </build>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
