@@ -28,7 +28,7 @@ public class SendTask extends TimerTask {
 			List<Message> list = repository.list();
 			//checar se existe mensagem
 			if (list.size() > 0){
-				Registry registry = LocateRegistry.getRegistry("host-receiver",10991);
+				Registry registry = LocateRegistry.getRegistry("receiver",10991);
 				//fazer o lookup
 				IReceiver receiver = (IReceiver) registry.lookup("Receiver");
 				//
