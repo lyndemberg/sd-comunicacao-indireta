@@ -31,7 +31,7 @@ public class Main {
 		//log
 		System.out.println("Acionado o clientapp");
 		//recuperação do Sender
-		Registry registry = LocateRegistry.getRegistry(10990);
+		Registry registry = LocateRegistry.getRegistry("host-sender",10990);
 		ISender sender = (ISender) registry.lookup("Sender");
 		//
 		String id = "askjdlkasjd";
