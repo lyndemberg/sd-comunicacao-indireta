@@ -14,12 +14,10 @@ public class Main {
 	public static void main(String[] args) throws IOException, InterruptedException {
 		//
 		System.out.println("Inicializando o receiver");
-		//
-		ResponseMessageRepository repository = new ResponseMessageRepository();
-		//
-		//inicializar o serviço para client app
+
+		//inicializar o serviço para receiver
 		Server serverSender = ServerBuilder.forPort(10991)
-				.addService(new Receiver(repository))
+				.addService(new Receiver())
 				.build();
 		serverSender.start();
 		serverSender.awaitTermination();

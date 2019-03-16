@@ -62,6 +62,7 @@ public class Main {
 			sendAndResultMessage(ix, mx, stubSender);
 		}
 
+		//para a aplicaçao cliente nao morrer ja que todos os envios sao assincronos
 		while(true){
 
 		}

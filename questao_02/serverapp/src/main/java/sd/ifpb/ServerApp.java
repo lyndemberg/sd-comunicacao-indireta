@@ -35,25 +35,4 @@ public class ServerApp extends ServerServiceGrpc.ServerServiceImplBase {
 		responseObserver.onCompleted();
 	}
 
-//	@Override
-//	public MessageResult print(Message msg) throws RemoteException {
-//		//
-//		MessageDigest msd;
-//		try {
-//			msd = MessageDigest.getInstance("MD5");
-//		} catch (NoSuchAlgorithmException e) {
-//			throw new RemoteException("Erro de MD5", e);
-//		}
-//		//
-//		byte[] bhash = msd.digest(msg.getText().getBytes());
-//		BigInteger bi = new BigInteger(bhash);
-//		//
-//		MessageResult result = new MessageResult(msg.getId(), bi.toString(16));
-//		//
-//		System.out.println(msg.getId() + " " + msg.getText());
-//		//
-//		return result;
-//
-//	}
-
 }

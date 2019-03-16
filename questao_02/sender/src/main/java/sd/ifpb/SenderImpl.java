@@ -25,7 +25,6 @@ public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImp
 	@Override
 	public void sendMessage(Message request, StreamObserver<MessageResult> responseObserver) {
 		//save local
-		System.out.println("chegou aqui");
 		repository.add(request);
 
 		//send to receiver

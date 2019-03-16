@@ -8,12 +8,10 @@ package sd.ifpb.share;
 
 service SenderService {
     rpc sendMessage(Message) returns (MessageResult);
-//    rpc getMessage(Id) returns (MessageResult);
 }
 
 service ReceiverService {
     rpc delivery(Message) returns (MessageResult);
-//    rpc result(Id) returns (MessageResult);
 }
 
 service ServerService{
