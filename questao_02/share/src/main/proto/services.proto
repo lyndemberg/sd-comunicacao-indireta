@@ -1,0 +1,22 @@
+syntax="proto3";
+
+option java_multiple_files = true;
+
+import "messages.proto";
+
+package sd.ifpb.share;
+
+service SenderService {
+    rpc sendMessage(Message) returns (MessageResult);
+//    rpc getMessage(Id) returns (MessageResult);
+}
+
+service ReceiverService {
+    rpc delivery(Message) returns (MessageResult);
+//    rpc result(Id) returns (MessageResult);
+}
+
+service ServerService{
+    rpc print(Message) returns (MessageResult);
+}
+

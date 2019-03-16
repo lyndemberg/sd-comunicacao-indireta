@@ -1,0 +1,21 @@
+version: '3'
+services:
+  clientapp:
+    build:
+      dockerfile: ./docker/client/Dockerfile
+      context: .
+    container_name: clientapp
+    networks:
+      - my_net
+    depends_on:
+      - serverapp
+  serverapp:
+    build:
+      dockerfile: ./docker/server/Dockerfile
+      context: .
+    container_name: serverapp
+    networks:
+      - my_net
+networks:
+  my_net:
+    driver: bridge
