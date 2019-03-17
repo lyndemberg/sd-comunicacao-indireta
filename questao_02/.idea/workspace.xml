@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a1d7e7c-2558-451d-9874-51a29745baa2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../questao_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_01/clientapp/src/main/java/sd/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_01/clientapp/src/main/java/sd/ifpb/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/GetResultTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SendTask.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/TaskManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/SendedMessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/SendedMessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/IReceiver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/ISender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/IServerApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/MessageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/SenderClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/java/sd/ifpb/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/proto/messages.proto" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/proto/messages.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/src/main/proto/services.proto" beforeDir="false" afterPath="$PROJECT_DIR$/share/src/main/proto/services.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share.iml" beforeDir="false" afterPath="$PROJECT_DIR$/share/share.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/clientapp/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,54 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/src/main/proto/messages.proto">
+        <entry file="file://$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Receiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="48" column="44" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/src/main/proto/services.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/ServerApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="69" column="84" lean-forward="true" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -94,31 +36,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="225">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java">
+        <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="305">
+              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,16 +92,16 @@
         <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SendTask.java" />
         <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/TaskManager.java" />
         <option value="$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/Main.java" />
-        <option value="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/share/src/main/proto/services.proto" />
         <option value="$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/ServerApp.java" />
-        <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java" />
-        <option value="$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/share/src/main/proto/messages.proto" />
-        <option value="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Receiver.java" />
-        <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java" />
         <option value="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java" />
+        <option value="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Receiver.java" />
+        <option value="$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java" />
+        <option value="$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java" />
       </list>
     </option>
   </component>
@@ -190,7 +124,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,25 +134,25 @@
             <path>
               <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="clientapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -227,16 +160,62 @@
             <path>
               <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
               <item name="questao_02" type="462c0819:PsiDirectoryNode" />
-              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+              <item name="clientapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ifpb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="async-message" type="b2602c69:ProjectViewProjectNode" />
+              <item name="questao_02" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifpb" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,18 +250,19 @@
       <updated>1552745103546</updated>
       <workItem from="1552745108336" duration="624000" />
       <workItem from="1552745775145" duration="3886000" />
-      <workItem from="1552749738458" duration="16515000" />
+      <workItem from="1552749738458" duration="19448000" />
+      <workItem from="1552833181807" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21025000" />
+    <option name="totallyTimeSpent" value="25078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26742426" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2719697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -366,55 +346,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/MessageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/ISender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="62" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/IReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/IServerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/MessageResult.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/ISender.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/IReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/IServerApp.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Subject.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/Message.java" />
     <entry file="file://$PROJECT_DIR$/share/target/generated-sources/protobuf/grpc-java/sd/ifpb/share/ReceiverServiceGrpc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -429,20 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageResultRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageResultRepository.java" />
     <entry file="file://$PROJECT_DIR$/share/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -457,31 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/SendedMessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -495,13 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/SenderClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/share/src/main/java/sd/ifpb/SenderClient.java" />
     <entry file="file://$PROJECT_DIR$/share/src/main/proto/services.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -509,34 +407,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/TaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SendTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/TaskManager.java" />
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SendTask.java" />
     <entry file="file://$PROJECT_DIR$/share/src/main/proto/messages.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -544,10 +416,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/GetResultTask.java" />
+    <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java" />
     <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="48" column="44" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="44" />
+        <state>
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1370#1371#0" expanded="true" />
@@ -556,46 +430,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/GetResultTask.java">
+    <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+        <state relative-caret-position="135">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/SendedMessageRepository.java" />
+    <entry file="file://$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/serverapp/src/main/java/sd/ifpb/ServerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="73">
+          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/repositories/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientapp/src/main/java/sd/ifpb/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="69" column="84" lean-forward="true" selection-start-line="69" selection-start-column="84" selection-end-line="69" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        <state relative-caret-position="225">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sender/src/main/java/sd/ifpb/SenderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="305">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/receiver/src/main/java/sd/ifpb/ResponseMessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
         </state>
       </provider>
     </entry>

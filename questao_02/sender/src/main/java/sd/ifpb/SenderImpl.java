@@ -12,11 +12,9 @@ import sd.ifpb.share.ReceiverServiceGrpc;
 public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImplBase {
 
 	private final ManagedChannel receiverChannel;
-	private final MessageRepository repository;
 	private ReceiverServiceGrpc.ReceiverServiceStub receiverServiceStub;
 	
-	public SenderImpl(MessageRepository rep){
-		this.repository = rep;
+	public SenderImpl(){
 		this.receiverChannel = ManagedChannelBuilder.forAddress("serverapp", 10991)
 							.usePlaintext()
 							.build();
@@ -24,9 +22,6 @@ public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImp
 
 	@Override
 	public void sendMessage(Message request, StreamObserver<MessageResult> responseObserver) {
-		//save local
-		repository.add(request);
-
 		//send to receiver
 		receiverServiceStub = ReceiverServiceGrpc.newStub(receiverChannel);
 		receiverServiceStub.delivery(request, new StreamObserver<MessageResult>() {
@@ -44,8 +39,6 @@ public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImp
 			public void onCompleted() {
 				responseObserver.onNext(result);
 				responseObserver.onCompleted();
-				//remove local
-				repository.remove(request);
 			}
 		});
 	}
