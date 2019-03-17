@@ -3,7 +3,6 @@ package sd.ifpb;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import io.grpc.stub.StreamObserver;
-import sd.ifpb.repositories.MessageRepository;
 import sd.ifpb.share.Message;
 import sd.ifpb.share.MessageResult;
 import sd.ifpb.share.ReceiverServiceGrpc;
