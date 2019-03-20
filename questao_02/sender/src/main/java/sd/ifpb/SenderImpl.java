@@ -24,7 +24,9 @@ public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImp
 		//send to receiver
 		receiverServiceStub = ReceiverServiceGrpc.newStub(receiverChannel);
 		receiverServiceStub.delivery(request, new StreamObserver<MessageResult>() {
+
 			private MessageResult result;
+
 			@Override
 			public void onNext(MessageResult messageResult) {
 				this.result = messageResult;
@@ -32,6 +34,7 @@ public class SenderImpl extends sd.ifpb.share.SenderServiceGrpc.SenderServiceImp
 
 			@Override
 			public void onError(Throwable throwable) {
+				responseObserver.onError(throwable);
 			}
 
 			@Override

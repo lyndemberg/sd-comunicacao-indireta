@@ -31,7 +31,7 @@ public class Receiver extends sd.ifpb.share.ReceiverServiceGrpc.ReceiverServiceI
 
 			@Override
 			public void onError(Throwable throwable) {
-
+				responseObserver.onError(throwable);
 			}
 
 			@Override
